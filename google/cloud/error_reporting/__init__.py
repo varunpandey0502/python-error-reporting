@@ -17,7 +17,8 @@
 
 from pkg_resources import get_distribution
 
-__version__ = get_distribution("google-cloud-error-reporting").version
+# __version__ = get_distribution("google-cloud-error-reporting").version
+__version__ = "1.4.1"
 
 from google.cloud.error_reporting.client import Client
 from google.cloud.error_reporting.client import HTTPContext
